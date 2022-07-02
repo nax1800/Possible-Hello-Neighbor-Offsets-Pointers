@@ -1,0 +1,35 @@
+namespace Offsets
+{
+	namespace Player
+	{
+		auto Offset = 0x7FF6383CC530;
+		auto Controller = 0x15B3B959400;
+		auto LocalPlayers = 0x15B39D16140;
+	}
+
+	namespace Character
+	{
+		auto Offset = 0x19F676E44E8;
+		namespace CharacterMovement
+		{
+			auto Offset = 0x15B0E738080;
+			auto JumpZVelocity = 0x15B1DC4C870;
+		}
+	}
+	auto GameInstance = 0x19F5965BFE8;
+	auto GEngine = 0x19F5965B380;
+	auto UWorld = 0x15B3D4CB200;
+	auto GameViewport = 0x19F5965BAC0;
+
+	namespace UObject
+	{
+		auto ObjectID = 0xC;
+		auto Class = 0x10;
+		auto FNameIndex = 0x18;
+		auto Outer = 0x20;
+		auto Member = 0x38;
+		auto Offset = 0x44;
+		auto Property = 0x70;
+		auto Enumoffset = 0x40;
+	}
+}
